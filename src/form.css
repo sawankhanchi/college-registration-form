@@ -1,0 +1,26 @@
+textarea {
+    width: 40%;
+    height: 50px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border: 2px solid #c5d1da;
+    border-radius: 2px;
+}
+
+input {
+    background-color: rgb(234, 240, 240);
+    border: 2px solid #ccc;
+    color: rgb(14, 12, 12);
+    padding: 8px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+}
+
+.main_div {
+    color: blue;
+}
+
+h1 {
+    color: rgb(103, 103, 233);
+}
