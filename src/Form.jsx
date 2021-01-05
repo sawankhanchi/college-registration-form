@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./form.css"
+import Button from '@material-ui/core/Button';
 
 class Form extends Component {
 
@@ -88,8 +89,8 @@ class Form extends Component {
                     <label> Gender </label> <br/>
                     <input type="text" value={this.state.gender} placeholder="Enter your gender" name="gender"
                            onChange={this.handlechangeall} /> <br/>
-
-                    <input type="submit" value="Send" />
+                    <Button>
+                    <input type="submit" value="Send" /> </Button>
                 </form>
             </div>
         )
